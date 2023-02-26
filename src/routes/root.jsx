@@ -12,7 +12,7 @@ export default function Root() {
 							type="search"
 							name="q"
 						/>
-						<div id="serch-spinner" aria-hidden hidden={true} />
+						<div id="search-spinner" aria-hidden hidden={true} />
 						<div className="sr-only" aria-live="polite"></div>
 					</form>
 					<form method="post">
@@ -22,10 +22,10 @@ export default function Root() {
 				<nav>
 					<ul>
 						<li>
-							<a href={`/contacts/1`}>Your name</a>
+							<a href={`/contacts/1`}>Your Name</a>
 						</li>
 						<li>
-							<a href={`/contacts/2`}>Your Friends</a>
+							<a href={`/contacts/2`}>Your Friend</a>
 						</li>
 					</ul>
 				</nav>
